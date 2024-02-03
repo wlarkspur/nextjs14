@@ -18,12 +18,7 @@ export default function Navigation() {
           {path === "/about-us" ? "🔥" : ""}
         </li>
         <li>
-          <button
-            style={{ padding: "100px" }}
-            onClick={() => setCount((c) => c + 1)}
-          >
-            {count}
-          </button>
+          <button onClick={() => setCount((c) => c + 1)}>{count}</button>
         </li>
       </ul>
     </nav>

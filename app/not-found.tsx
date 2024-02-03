@@ -1,10 +1,11 @@
-import Navigation from "../components/navitagion";
+export const metadata = {
+  title: "Not Found",
+};
 
 export default function NotFound() {
   return (
     <div>
-      <Navigation />
-      <h1>About us!</h1>
+      <h1>Page Not Found</h1>
     </div>
   );
 }
